@@ -101,7 +101,7 @@ function pCreate() {
   settings();
   pConditions();
   pGen();
-  return pGen;
+  return pResult;
 }
 
 // Get references to the #generate element
