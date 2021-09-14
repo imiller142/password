@@ -31,7 +31,7 @@ function settings() {
   //is it a number?
 
   if (isNaN(pLength) === true || pLength < 8 || pLength > 128) {
-    alert("You have entered an ivalid input. Please choose a number betwee 8 and 128.");
+    alert("You have entered an invalid input. Please choose a number betwee 8 and 128.");
     return;
   }
 
